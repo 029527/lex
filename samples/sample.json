@@ -1,0 +1,1 @@
+{"name":"lex","version":"0.1.0","exact":{"price":1.50,"scientific":1e3,"big":12345678901234567890},"tricky":"a string with }{ braces and a \" quote","nested":{"empty_object":{},"empty_array":[],"list":[1,2,3]},"unicode":"中文 / é / emoji-free","flags":[true,false,null]}

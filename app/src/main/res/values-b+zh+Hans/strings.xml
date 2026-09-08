@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Generic actions -->
+    <string name="action_back">返回</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_done">完成</string>
+    <!-- Apple's zh-Hans term for "Save" is 存储, not the more common 保存. -->
+    <string name="action_save">存储</string>
+    <string name="action_retry">重试</string>
+    <string name="action_more">更多</string>
+
+    <!-- Home -->
+    <string name="home_title">文件</string>
+    <string name="home_tagline">小巧、细致的文本编辑器。</string>
+    <string name="home_open_folder">打开文件夹</string>
+    <string name="home_open_file">打开文件</string>
+    <string name="home_recent_folders">最近使用的文件夹</string>
+    <string name="home_no_recents">你打开的文件夹将显示在这里。</string>
+    <!-- %1$s is a folder name -->
+    <string name="home_forget_folder">移除“%1$s”</string>
+    <string name="home_forget">移除</string>
+    <string name="home_settings">设置</string>
+
+    <!-- Browsing a folder -->
+    <string name="browse_empty">此文件夹为空。</string>
+    <string name="browse_loading">正在打开…</string>
+    <!-- English omits the subject; made explicit as "the file is too large to open". -->
+    <string name="browse_too_large">文件过大，无法打开</string>
+
+    <!-- Editor chrome -->
+    <string name="editor_mode_read">阅读</string>
+    <string name="editor_mode_edit">编辑</string>
+    <string name="editor_read_only">只读</string>
+    <string name="editor_select_all">全选</string>
+    <!-- Apple's zh-Hans term for "Copy" is 拷贝. -->
+    <string name="editor_copy_all">拷贝全部</string>
+    <!-- "Format" here means reflowing the document's source, not disk formatting. -->
+    <string name="editor_format">格式化</string>
+    <string name="editor_minify_json">压缩 JSON</string>
+    <string name="editor_undo">撤销</string>
+    <string name="editor_redo">重做</string>
+    <string name="editor_show_preview">显示预览</string>
+    <string name="editor_hide_preview">隐藏预览</string>
+    <string name="editor_word_wrap_on">开启自动换行</string>
+    <string name="editor_word_wrap_off">关闭自动换行</string>
+
+    <!-- Editor messages -->
+    <string name="editor_preview_unavailable">此类文件不支持预览。</string>
+    <string name="editor_open_failed">无法打开此文件。</string>
+    <string name="editor_saved">已存储</string>
+    <string name="editor_save_failed">无法存储</string>
+    <!-- %1$s is a message from the system, already human-readable -->
+    <string name="editor_save_failed_detail">无法存储：%1$s</string>
+    <string name="editor_formatted">已格式化</string>
+    <string name="editor_minified">已压缩</string>
+    <!-- "Already formatted" = formatting would change nothing. -->
+    <string name="editor_nothing_to_change">已是格式化状态</string>
+    <string name="editor_already_minified">已是压缩状态</string>
+    <string name="editor_no_formatter">此类文件不支持格式化</string>
+    <string name="editor_copied">已拷贝</string>
+    <string name="editor_copy_too_large">内容过大，无法拷贝。剪贴板上限约为 256 KB。</string>
+    <string name="editor_copy_refused">剪贴板拒绝了此文稿</string>
+
+    <!-- Discarding unsaved edits -->
+    <string name="editor_discard_title">要放弃更改吗？</string>
+    <string name="editor_discard_message">你对此文件所做的编辑尚未存储。</string>
+    <string name="editor_discard_confirm">放弃更改</string>
+    <string name="editor_discard_cancel">继续编辑</string>
+
+    <!-- Status bar. %1$d is a line number, %2$d a column number. -->
+    <string name="status_line_column">第 %1$d 行，第 %2$d 列</string>
+    <!-- Chinese has no count-based plural distinction: "other" only. -->
+    <plurals name="status_lines">
+        <item quantity="other">%1$d 行</item>
+    </plurals>
+    <plurals name="status_characters">
+        <item quantity="other">%1$d 个字符</item>
+    </plurals>
+
+    <!-- File kinds -->
+    <string name="filetype_plain">纯文本</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_theme">主题</string>
+    <string name="theme_system">自动</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="settings_language">语言</string>
+    <string name="language_system">系统默认</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_local_only">你的文件不会离开这台设备。Lex 唯一会通过网络发送的是下面的更新检查，而且只在你点击时发生。</string>
+
+    <!-- Updates -->
+    <string name="settings_updates">更新</string>
+    <string name="update_check">检查更新</string>
+    <string name="update_checking">正在检查\u2026</string>
+    <string name="update_up_to_date">已是最新版本</string>
+    <string name="update_available">有新版本 %1$s</string>
+    <string name="update_failed">无法连接 GitHub</string>
+    <string name="update_open_releases">打开发布页</string>
+    <string name="update_note">检查更新只会向 GitHub 询问最新版本号，不会下载也不会安装任何东西——那交给你的浏览器。</string>
+</resources>
